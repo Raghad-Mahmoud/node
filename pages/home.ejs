@@ -1,0 +1,29 @@
+<%- include('partials/header'); %>
+<div class="all">
+<div class="pokemon">
+  <div  class="card" style="width: 18rem; ">
+    <img src="/images/venusaur.png" class="card-img-top" >
+    <div id="body">
+      <h5 class="card-title"> Name  : <%= poke[0].name %></h5>
+      <p class="card-text"> Order  : <%= poke[0].order %></p>
+    </div>
+</div></div>
+<div class="pokemon" >
+  <div class="card" style="width: 18rem;">
+    <img src="/images/nidoran.png" class="card-img-top" >
+    <div id="body">
+      <h5 class="card-title"> Name  : <%= poke[1].name %></h5>
+      <p class="card-text"> Order  : <%= poke[1].order %></p>
+    </div>
+</div></div>
+<div class="pokemon" >
+  <div class="card" style="width: 18rem;">
+    <img src="/images/swablu.png" class="card-img-top" >
+    <div id="body">
+      <h5 class="card-title"> Name : <%= poke[2].name %></h5>
+      <p class="card-text"> Order  : <%= poke[2].order %></p>
+    </div>
+</div>
+</div>
+
+<%- include('partials/footer'); %>
